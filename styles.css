@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: "Quicksand", sans-serif;
+  color: #222;
+}
+
+header {
+  background-color: #ffff00;
+}
+
+main {
+  max-width: 1368px;
+  /* margin auto för att centrerar */
+  margin: auto;
+}
+
+main section {
+  display: flex;
+}
+
+.banner {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
